@@ -1,0 +1,28 @@
+{
+  "name": "nasa-neows-api-integration",
+  "version": "1.0.0",
+  "description": "This is a website integrated with API NEOWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neildc14/NASA-NeoWs-API-Integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neildc14/NASA-NeoWs-API-Integration/issues"
+  },
+  "homepage": "https://github.com/neildc14/NASA-NeoWs-API-Integration#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

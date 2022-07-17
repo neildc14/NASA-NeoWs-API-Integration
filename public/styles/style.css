@@ -1,0 +1,72 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.main_container {
+  height: 100% !important;
+}
+header {
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(29, 27, 27);
+}
+
+header img {
+  height: 5rem;
+  width: 5rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.image-orbit img {
+  height: 40vh !important;
+  width: 100% !important;
+}
+
+@media (min-width: 768px) {
+  .image-orbit img {
+    height: 60vh !important;
+    width: 100% !important;
+  }
+}
+
+.object-counter {
+  background-color: #072da1;
+}
+li {
+  list-style: none !important;
+}
+
+ul {
+  padding: 0 !important;
+  background-color: white;
+}
+
+li,
+.object-counter {
+  max-width: 700px !important;
+}
+
+footer {
+  padding: 4rem !important;
+  background-color: #021038;
+}
+
+footer .container {
+  flex-direction: column;
+}
+footer a {
+  padding: 0.2rem 0;
+  font-size: 14px !important;
+  color: rgb(67, 179, 243);
+  text-align: center;
+}
